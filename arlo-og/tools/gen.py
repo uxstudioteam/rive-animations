@@ -117,12 +117,12 @@ CURSOR = nid()
 HIT = nid()  # full-artboard hit area for the move listener
 
 # Avatar specs: center measured from the reference OG image.
-R = 27.0                 # on-screen radius
+R = 54.0                 # on-screen radius (2x the reference)
 S = R / 11.5             # svg avatar units -> pixels
 SW = 0.5                 # glyph stroke in svg units (~1.2px on screen)
 AVATARS = [
-    dict(key='green',  color='FFC5FE79', cx=274.5, cy=256.5, kind='face'),
-    dict(key='blue',   color='FF3E85F1', cx=441.5, cy=341.5, kind='square'),
+    dict(key='green',  color='FFC5FE79', cx=290.0, cy=172.0, kind='face'),
+    dict(key='blue',   color='FF3E85F1', cx=480.0, cy=341.5, kind='square'),
     dict(key='orange', color='FFFF6E23', cx=717.0, cy=213.5, kind='triangle'),
     dict(key='pink',   color='FFFE86F7', cx=946.5, cy=279.0, kind='rings'),
 ]
@@ -153,7 +153,7 @@ def eye(a, side, ex, ey, i):
 {i}    <Node name="Pupil" id="{pid}">
 {i}        <ClippingShape sourceId="{wid}" name="Clip to eye"/>
 {i}        <TranslationConstraint targetId="{CURSOR}" name="Follow cursor"/>
-{i}        <DistanceConstraint targetId="{anchor}" distance="3" name="Clamp"/>
+{i}        <DistanceConstraint targetId="{anchor}" distance="6" name="Clamp"/>
 {i}        <Shape x="-0.43" y="-2.5" name="Glint">
 {i}            <Ellipse width="0.86" height="1.02" name="Path"/>
 {fill('FFFFFFFF', i + '            ')}
@@ -308,7 +308,7 @@ def anim(name, aid, dur, loop, keyed_objs):
             + '\n'.join(keyed_objs) + '\n    </LinearAnimation>')
 
 IDLE_DUR = 300   # 5s loop: each avatar hops in turn, a-r-l-o, then a group hop
-def jump_keys(t, h=34):
+def jump_keys(t, h=68):
     """A squash-and-stretch hop starting at frame t (lasts 42 frames)."""
     y = [(0, 0, 'hold'), (t, 0, 'cubic'), (t + 8, 0, 'out'), (t + 22, -h, 'in'),
          (t + 34, 0, 'cubic'), (t + 42, 0, 'linear'), (IDLE_DUR, 0)]
@@ -335,7 +335,7 @@ STARTS = [20, 70, 120, 170]   # a, r, l, o in sequence
 GROUP = 232                   # then everyone together
 for a, t in zip(AVATARS, STARTS):
     y1, sx1, sy1 = jump_keys(t)
-    y2, sx2, sy2 = jump_keys(GROUP + (AVATARS.index(a) * 3), h=46)
+    y2, sx2, sy2 = jump_keys(GROUP + (AVATARS.index(a) * 3), h=92)
     idle_objs.append(keyed(a['jump'], kf('y', merge(y1, y2)),
                            kf('scaleX', merge(sx1, sx2)), kf('scaleY', merge(sy1, sy2))))
 # the green one grins on its hops

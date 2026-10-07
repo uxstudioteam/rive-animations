@@ -3,19 +3,19 @@
         <LayoutComponentStyle name="Artboard Style" id="0:5"/>
         <Fill name="Fill" id="0:192"><SolidColor colorValue="FFFAFAF9" name="Color" id="0:193"/></Fill>
         <Node x="600.0" y="313.5" name="Cursor" id="0:101"/>
-        <Node x="274.5" y="283.5" name="Avatar Green" id="0:103">
+        <Node x="290" y="226" name="Avatar Green" id="0:103">
             <Node name="Jump" id="0:104">
                 <Node name="React" id="0:105">
-                    <Node y="-27" scaleX="2.348" scaleY="2.348" name="Body" id="0:106">
+                    <Node y="-54" scaleX="4.696" scaleY="4.696" name="Body" id="0:106">
                         <Node name="Look" id="0:107">
                             <TranslationConstraint targetId="0:101" name="Follow cursor" id="0:194"/>
-                            <DistanceConstraint targetId="0:108" distance="3.287" name="Clamp" id="0:195"/>
+                            <DistanceConstraint targetId="0:108" distance="6.574" name="Clamp" id="0:195"/>
                             <Node name="Spin" id="0:109">
                                 <Node x="-4.14" y="0.95" name="Eye L" id="0:110">
                                     <Node name="Pupil" id="0:112">
                                         <ClippingShape sourceId="0:115" name="Clip to eye" id="0:196"/>
                                         <TranslationConstraint targetId="0:101" name="Follow cursor" id="0:197"/>
-                                        <DistanceConstraint targetId="0:188" distance="3" name="Clamp" id="0:198"/>
+                                        <DistanceConstraint targetId="0:188" distance="6" name="Clamp" id="0:198"/>
                                         <Shape x="-0.43" y="-2.5" name="Glint" id="0:199">
                                             <Ellipse width="0.86" height="1.02" name="Path" id="0:200"/>
                                             <Fill name="Fill" id="0:201"><SolidColor colorValue="FFFFFFFF" name="Color" id="0:202"/></Fill>
@@ -49,7 +49,7 @@
                                     <Node name="Pupil" id="0:113">
                                         <ClippingShape sourceId="0:116" name="Clip to eye" id="0:222"/>
                                         <TranslationConstraint targetId="0:101" name="Follow cursor" id="0:223"/>
-                                        <DistanceConstraint targetId="0:189" distance="3" name="Clamp" id="0:224"/>
+                                        <DistanceConstraint targetId="0:189" distance="6" name="Clamp" id="0:224"/>
                                         <Shape x="-0.43" y="-2.5" name="Glint" id="0:225">
                                             <Ellipse width="0.86" height="1.02" name="Path" id="0:226"/>
                                             <Fill name="Fill" id="0:227"><SolidColor colorValue="FFFFFFFF" name="Color" id="0:228"/></Fill>
@@ -114,13 +114,13 @@
                 </Node>
             </Node>
         </Node>
-        <Node x="441.5" y="368.5" name="Avatar Blue" id="0:118">
+        <Node x="480" y="395.5" name="Avatar Blue" id="0:118">
             <Node name="Jump" id="0:119">
                 <Node name="React" id="0:120">
-                    <Node y="-27" scaleX="2.348" scaleY="2.348" name="Body" id="0:121">
+                    <Node y="-54" scaleX="4.696" scaleY="4.696" name="Body" id="0:121">
                         <Node name="Look" id="0:122">
                             <TranslationConstraint targetId="0:101" name="Follow cursor" id="0:273"/>
-                            <DistanceConstraint targetId="0:123" distance="5.165" name="Clamp" id="0:274"/>
+                            <DistanceConstraint targetId="0:123" distance="10.33" name="Clamp" id="0:274"/>
                             <Node name="Spin" id="0:124">
                                 <Shape name="Square" id="0:275">
                                     <Rectangle width="11" height="11" name="Path" id="0:276"/>
@@ -147,13 +147,13 @@
                 </Node>
             </Node>
         </Node>
-        <Node x="717" y="240.5" name="Avatar Orange" id="0:133">
+        <Node x="717" y="267.5" name="Avatar Orange" id="0:133">
             <Node name="Jump" id="0:134">
                 <Node name="React" id="0:135">
-                    <Node y="-27" scaleX="2.348" scaleY="2.348" name="Body" id="0:136">
+                    <Node y="-54" scaleX="4.696" scaleY="4.696" name="Body" id="0:136">
                         <Node name="Look" id="0:137">
                             <TranslationConstraint targetId="0:101" name="Follow cursor" id="0:293"/>
-                            <DistanceConstraint targetId="0:138" distance="5.165" name="Clamp" id="0:294"/>
+                            <DistanceConstraint targetId="0:138" distance="10.33" name="Clamp" id="0:294"/>
                             <Node name="Spin" id="0:139">
                                 <Shape name="Triangle" id="0:295">
                                     <PointsPath isClosed="true" name="Path" id="0:296">
@@ -177,13 +177,13 @@
                 </Node>
             </Node>
         </Node>
-        <Node x="946.5" y="306" name="Avatar Pink" id="0:148">
+        <Node x="946.5" y="333" name="Avatar Pink" id="0:148">
             <Node name="Jump" id="0:149">
                 <Node name="React" id="0:150">
-                    <Node y="-27" scaleX="2.348" scaleY="2.348" name="Body" id="0:151">
+                    <Node y="-54" scaleX="4.696" scaleY="4.696" name="Body" id="0:151">
                         <Node name="Look" id="0:152">
                             <TranslationConstraint targetId="0:101" name="Follow cursor" id="0:311"/>
-                            <DistanceConstraint targetId="0:153" distance="5.165" name="Clamp" id="0:312"/>
+                            <DistanceConstraint targetId="0:153" distance="10.33" name="Clamp" id="0:312"/>
                             <Node name="Spin" id="0:154">
                                 <Shape x="-2.256" name="Ring L" id="0:190">
                                     <Ellipse width="9" height="11" name="Path" id="0:313"/>
@@ -2285,12 +2285,12 @@
                 <KeyFrameDouble frame="0" value="0" interpolationType="hold" id="0:2085"/>
                 <KeyFrameDouble frame="20" value="0" interpolationType="cubic" id="0:2086"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2087"/></KeyFrameDouble>
                 <KeyFrameDouble frame="28" value="0" interpolationType="cubic" id="0:2088"><CubicEaseInterpolator x1="0.2" y1="0.7" x2="0.4" y2="1" id="0:2089"/></KeyFrameDouble>
-                <KeyFrameDouble frame="42" value="-34" interpolationType="cubic" id="0:2090"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2091"/></KeyFrameDouble>
+                <KeyFrameDouble frame="42" value="-68" interpolationType="cubic" id="0:2090"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2091"/></KeyFrameDouble>
                 <KeyFrameDouble frame="54" value="0" interpolationType="cubic" id="0:2092"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2093"/></KeyFrameDouble>
                 <KeyFrameDouble frame="62" value="0" interpolationType="linear" id="0:2094"/>
                 <KeyFrameDouble frame="232" value="0" interpolationType="cubic" id="0:2095"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2096"/></KeyFrameDouble>
                 <KeyFrameDouble frame="240" value="0" interpolationType="cubic" id="0:2097"><CubicEaseInterpolator x1="0.2" y1="0.7" x2="0.4" y2="1" id="0:2098"/></KeyFrameDouble>
-                <KeyFrameDouble frame="254" value="-46" interpolationType="cubic" id="0:2099"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2100"/></KeyFrameDouble>
+                <KeyFrameDouble frame="254" value="-92" interpolationType="cubic" id="0:2099"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2100"/></KeyFrameDouble>
                 <KeyFrameDouble frame="266" value="0" interpolationType="cubic" id="0:2101"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2102"/></KeyFrameDouble>
                 <KeyFrameDouble frame="274" value="0" interpolationType="linear" id="0:2103"/>
                 <KeyFrameDouble frame="300" value="0" interpolationType="cubic" id="0:2104"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2105"/></KeyFrameDouble>
@@ -2333,12 +2333,12 @@
                 <KeyFrameDouble frame="0" value="0" interpolationType="hold" id="0:2160"/>
                 <KeyFrameDouble frame="70" value="0" interpolationType="cubic" id="0:2161"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2162"/></KeyFrameDouble>
                 <KeyFrameDouble frame="78" value="0" interpolationType="cubic" id="0:2163"><CubicEaseInterpolator x1="0.2" y1="0.7" x2="0.4" y2="1" id="0:2164"/></KeyFrameDouble>
-                <KeyFrameDouble frame="92" value="-34" interpolationType="cubic" id="0:2165"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2166"/></KeyFrameDouble>
+                <KeyFrameDouble frame="92" value="-68" interpolationType="cubic" id="0:2165"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2166"/></KeyFrameDouble>
                 <KeyFrameDouble frame="104" value="0" interpolationType="cubic" id="0:2167"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2168"/></KeyFrameDouble>
                 <KeyFrameDouble frame="112" value="0" interpolationType="linear" id="0:2169"/>
                 <KeyFrameDouble frame="235" value="0" interpolationType="cubic" id="0:2170"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2171"/></KeyFrameDouble>
                 <KeyFrameDouble frame="243" value="0" interpolationType="cubic" id="0:2172"><CubicEaseInterpolator x1="0.2" y1="0.7" x2="0.4" y2="1" id="0:2173"/></KeyFrameDouble>
-                <KeyFrameDouble frame="257" value="-46" interpolationType="cubic" id="0:2174"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2175"/></KeyFrameDouble>
+                <KeyFrameDouble frame="257" value="-92" interpolationType="cubic" id="0:2174"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2175"/></KeyFrameDouble>
                 <KeyFrameDouble frame="269" value="0" interpolationType="cubic" id="0:2176"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2177"/></KeyFrameDouble>
                 <KeyFrameDouble frame="277" value="0" interpolationType="linear" id="0:2178"/>
                 <KeyFrameDouble frame="300" value="0" interpolationType="cubic" id="0:2179"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2180"/></KeyFrameDouble>
@@ -2381,12 +2381,12 @@
                 <KeyFrameDouble frame="0" value="0" interpolationType="hold" id="0:2235"/>
                 <KeyFrameDouble frame="120" value="0" interpolationType="cubic" id="0:2236"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2237"/></KeyFrameDouble>
                 <KeyFrameDouble frame="128" value="0" interpolationType="cubic" id="0:2238"><CubicEaseInterpolator x1="0.2" y1="0.7" x2="0.4" y2="1" id="0:2239"/></KeyFrameDouble>
-                <KeyFrameDouble frame="142" value="-34" interpolationType="cubic" id="0:2240"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2241"/></KeyFrameDouble>
+                <KeyFrameDouble frame="142" value="-68" interpolationType="cubic" id="0:2240"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2241"/></KeyFrameDouble>
                 <KeyFrameDouble frame="154" value="0" interpolationType="cubic" id="0:2242"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2243"/></KeyFrameDouble>
                 <KeyFrameDouble frame="162" value="0" interpolationType="linear" id="0:2244"/>
                 <KeyFrameDouble frame="238" value="0" interpolationType="cubic" id="0:2245"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2246"/></KeyFrameDouble>
                 <KeyFrameDouble frame="246" value="0" interpolationType="cubic" id="0:2247"><CubicEaseInterpolator x1="0.2" y1="0.7" x2="0.4" y2="1" id="0:2248"/></KeyFrameDouble>
-                <KeyFrameDouble frame="260" value="-46" interpolationType="cubic" id="0:2249"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2250"/></KeyFrameDouble>
+                <KeyFrameDouble frame="260" value="-92" interpolationType="cubic" id="0:2249"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2250"/></KeyFrameDouble>
                 <KeyFrameDouble frame="272" value="0" interpolationType="cubic" id="0:2251"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2252"/></KeyFrameDouble>
                 <KeyFrameDouble frame="280" value="0" interpolationType="linear" id="0:2253"/>
                 <KeyFrameDouble frame="300" value="0" interpolationType="cubic" id="0:2254"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2255"/></KeyFrameDouble>
@@ -2429,12 +2429,12 @@
                 <KeyFrameDouble frame="0" value="0" interpolationType="hold" id="0:2310"/>
                 <KeyFrameDouble frame="170" value="0" interpolationType="cubic" id="0:2311"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2312"/></KeyFrameDouble>
                 <KeyFrameDouble frame="178" value="0" interpolationType="cubic" id="0:2313"><CubicEaseInterpolator x1="0.2" y1="0.7" x2="0.4" y2="1" id="0:2314"/></KeyFrameDouble>
-                <KeyFrameDouble frame="192" value="-34" interpolationType="cubic" id="0:2315"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2316"/></KeyFrameDouble>
+                <KeyFrameDouble frame="192" value="-68" interpolationType="cubic" id="0:2315"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2316"/></KeyFrameDouble>
                 <KeyFrameDouble frame="204" value="0" interpolationType="cubic" id="0:2317"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2318"/></KeyFrameDouble>
                 <KeyFrameDouble frame="212" value="0" interpolationType="linear" id="0:2319"/>
                 <KeyFrameDouble frame="241" value="0" interpolationType="cubic" id="0:2320"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2321"/></KeyFrameDouble>
                 <KeyFrameDouble frame="249" value="0" interpolationType="cubic" id="0:2322"><CubicEaseInterpolator x1="0.2" y1="0.7" x2="0.4" y2="1" id="0:2323"/></KeyFrameDouble>
-                <KeyFrameDouble frame="263" value="-46" interpolationType="cubic" id="0:2324"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2325"/></KeyFrameDouble>
+                <KeyFrameDouble frame="263" value="-92" interpolationType="cubic" id="0:2324"><CubicEaseInterpolator x1="0.6" y1="0" x2="0.8" y2="0.3" id="0:2325"/></KeyFrameDouble>
                 <KeyFrameDouble frame="275" value="0" interpolationType="cubic" id="0:2326"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2327"/></KeyFrameDouble>
                 <KeyFrameDouble frame="283" value="0" interpolationType="linear" id="0:2328"/>
                 <KeyFrameDouble frame="300" value="0" interpolationType="cubic" id="0:2329"><CubicEaseInterpolator x1="0.42" y1="0" x2="0.58" y2="1" id="0:2330"/></KeyFrameDouble>
