@@ -2,3 +2,6 @@ name: arlo-og
 logs:
   file: build/rive.log
   problems: build/problems.log
+push:
+  projectId: 2009351
+  fileId: 2636929
